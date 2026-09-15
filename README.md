@@ -27,7 +27,9 @@ Bottles -> GUI for Wine (isolated application environments for Windows programs)
 - I've named my system hopper in honor of Grace Hopper, the mother of computing. Just to romantisize it a bit.\
 - I also made a quick ascii art with cowsay referencing a quote from Dark Souls for my login page you can see as a picture uploaded.\ 
 - I have 10 working desktops which I use instead of minimizing windows, and the windows can be rearanged and changed between fullscreen, floating mode, split, or stacked. Also I use Tmux to keep open different terminal sessions for different projects and also have VSCode, VS, Eclipse, and PacketTracer between other tools.\
-- I make use of the power modes daemon with the little symbol at the top right corner, it's all explained in the Waybar config file. It also allows me to manage Bluetooth and Wifi.
+- I make use of the power modes daemon with the little symbol at the top right corner, it's all explained in the Waybar config file. It also allows me to manage Bluetooth and Wifi.\
+- Connected extra displays are managed dynamically.\
+- All the function keys as well as the volume, brightness, etc are configured in the sway/config file.
 
 ## File system
 I won't be explaining the whole linux file system obviously but the directories I've been used for my config specifically.
