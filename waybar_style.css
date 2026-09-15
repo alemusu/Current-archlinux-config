@@ -1,0 +1,30 @@
+* {
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    font-family: "JetBrainsMono Nerd Font", monospace; /* Fundamental para la estética suckless */
+    font-size: 15px;
+    min-height: 0;
+    margin: 0;
+}
+
+window#waybar {
+    background-color: #000000; /* Único fondo sólido para toda la barra */
+    color: #ffffff;
+    min-height: 26px;
+}
+
+#workspaces button {
+    padding: 0 4px;
+    color: #ffffff;
+}
+
+#workspaces button.focused {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+tooltip {
+    background-color: #000000;
+    border: 1px solid #ffffff;
+}

@@ -1,0 +1,106 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    "spacing": 4,
+    "modules-left": [
+        "sway/workspaces",
+        "sway/mode"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "pulseaudio",
+        "bluetooth",
+        "network",
+        "cpu",
+        "memory",
+        "battery",
+        "power-profiles-daemon"
+    ],
+    "battery": {
+        "states": {
+            "low": 25
+        },
+        "format": "{icon} {capacity}% |",
+        "format-charging": " {capacity}% |",
+        "format-plugged": " {capacity}% |",
+        "format-alt": "{icon} {time} |",
+        "format-icons": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "tooltip-format": "{timeTo}\nPower: {power}W"
+    },
+    "sway/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "format": "{name}",
+        "persistent-workspaces": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": [],
+            "6": [],
+            "7": [],
+            "8": [],
+            "9": []
+        }
+    },
+    "clock": {
+        "format": " {:%H:%M %D}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+    "cpu": {
+        "format": "CPU: {usage}% |",
+        "tooltip": false
+    },
+    "memory": {
+        "format": "RAM: {}% |"
+    },
+    "network": {
+        "format-wifi": " {essid} |",
+        "format-ethernet": "󰈀 {ifname} |",
+        "format-disconnected": "⚠ Disconnected |"
+    },
+    "bluetooth": {
+        "format": "BT: {status} |",
+        "format-on": "BT: On |",
+        "format-off": "BT: Off |",
+        "format-disabled": "BT: Disabled |",
+        "format-connected": "BT: {device_alias} |",
+        "format-connected-battery": "BT: {device_alias} ({device_battery_percentage}%) |",
+        "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+        "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+        "on-click": "bt-toggle",
+        "on-click-right": "blueman-manager"
+    },
+    "pulseaudio": {
+        "format": "{icon} {volume}% |",
+        "format-muted": "  Muted |",
+        "format-icons": {
+            "default": [
+                "",
+                "",
+                ""
+            ]
+        },
+        "on-click": "pavucontrol"
+    },
+    "power-profiles-daemon": {
+        "format": "{icon}  ",
+        "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+        "tooltip": true,
+        "format-icons": {
+            "performance": "",
+            "balanced": "",
+            "power-saver": ""
+        }
+    }
+}
