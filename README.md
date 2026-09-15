@@ -8,16 +8,17 @@ To create a whole system from Archlinux minimal that could be used as my main an
 There was a previous version which is uploaded in other repository (dwm-arch-rice) in which I took inspiration for the visual design of this second version. It was based on X11 which is old, deprecated and unsafer than the now being used Wayland. Still for minimalistic reasons I kused Sway, which is the wayland equivalent of i3.
 
 ## Main programs used
-Sway -> Window manager \n
-Alacritty -> Terminal emulator
-Fuzzel -> Application launcher and bash scripts executer
-Waybar -> Interactable status bar
-Pulsewire -> Audio management
-Blueman -> Bluetooth connection
-Yazi -> Terminal file manager
-Thunar -> Classic file manager
-Pywal -> Wallpapers and color palette generation
-Neovim -> Text editor (more in depth in nvim-config repository)
+Sway -> Window manager\
+Alacritty -> Terminal emulator\
+Fuzzel -> Application launcher and bash scripts executer\
+Waybar -> Interactable status bar\
+Pulsewire -> Audio management\
+Blueman -> Bluetooth connection\
+Yazi -> Terminal file manager\
+Thunar -> Classic file manager\
+Pywal -> Wallpapers and color palette generation\
+Neovim -> Text editor (more in depth in nvim-config repository)\
+Bottles -> GUI for Wine (isolated application environments for Windows programs)
 
 ## File system
 I won't be explaining the whole linux file system obviously but the directories I've been used for my config specifically.
