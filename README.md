@@ -1,5 +1,7 @@
 # Current-archlinux-config
-This is my main system configuration, an Archlinux system based on Sway, minimal for minimum resource usage. (I got fed up with windows in my 8GB laptop)
+This is my main system configuration, an Archlinux system based on Sway, minimal for minimum resource usage. (I got fed up with windows in my 8GB laptop)\
+<img width="1920" height="1199" alt="image" src="https://github.com/user-attachments/assets/7d904200-5726-47c6-9960-ae520d282a74" />
+
 
 ## Objective
 To create a whole system from Archlinux minimal that could be used as my main and only system (with the use of bottles for Win-exclusive programs). It needed to be fast, keyboard controlled, customizable, and reliable. I'm fed up with Windows and it's RAM usage, my poor 8GB laptop can't "move it move it" no more).
@@ -22,9 +24,10 @@ Tmux -> Terminal session manager\
 Bottles -> GUI for Wine (isolated application environments for Windows programs)
 
 ## Some details
-I've named my system hopper in honor of Grace Hopper, the mother of computing. Just to romantisize it a bit.\
-I also made a quick ascii art with cowsay referencing a quote from Dark Souls for my login page you can see as a picture uploaded.\ 
-I have 10 working desktops which I use instead of minimizing windows, and the windows can be rearanged and changed between fullscreen, floating mode, split, or stacked. Also I use Tmux to keep open different terminal sessions for different projects and also have VSCode, VS, Eclipse, and PacketTracer between other tools.
+- I've named my system hopper in honor of Grace Hopper, the mother of computing. Just to romantisize it a bit.\
+- I also made a quick ascii art with cowsay referencing a quote from Dark Souls for my login page you can see as a picture uploaded.\ 
+- I have 10 working desktops which I use instead of minimizing windows, and the windows can be rearanged and changed between fullscreen, floating mode, split, or stacked. Also I use Tmux to keep open different terminal sessions for different projects and also have VSCode, VS, Eclipse, and PacketTracer between other tools.\
+- I make use of the power modes daemon with the little symbol at the top right corner, it's all explained in the Waybar config file. It also allows me to manage Bluetooth and Wifi.
 
 ## File system
 I won't be explaining the whole linux file system obviously but the directories I've been used for my config specifically.
