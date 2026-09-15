@@ -18,7 +18,7 @@ Yazi -> Terminal file manager\
 Thunar -> Classic file manager\
 Pywal -> Wallpapers and color palette generation\
 Neovim -> Text editor (more in depth in nvim-config repository)\
-Tmux -> Terminal session manager
+Tmux -> Terminal session manager\
 Bottles -> GUI for Wine (isolated application environments for Windows programs)
 
 ## Some details
