@@ -29,6 +29,10 @@ I won't be explaining the whole linux file system obviously but the directories 
 This has to be called upon the sway config file to work as follows:
 <img width="925" height="77" alt="image" src="https://github.com/user-attachments/assets/cc35d6f8-9d35-41af-afe1-0da86cd55758" />
 
+~/.config/sway -> This contains the sway configuration which is the main config file from which others are called, and also a file "wall_cycle.sh" that allows me to dinamically change with a keybind the wallpaper and the color palette of the whole system. That is the borders, the terminal's palette, the menu colors, etc. However, I've excluded Neovim as I made a custom color palette which I preffer to be stable all across.
+<img width="1025" height="526" alt="image" src="https://github.com/user-attachments/assets/0ad4001f-aa31-43b2-9510-cc3ff0c8dda3" />
+
+
 ~/.config -> This is where the magic happens, all the configuration files are here (duh).
 I will enter into explaining everything and the thought process that was into developing everythign because this is just a personal project for personal use and there is too much to explain, it's been a constant and slow process of adding functionality as ideas emerged. If by any reason you're reading this I'd be happy to explain you any part of my system, but I may reccommend you looking for a better candidate or try your own thing. The beauty of ricing relies on embracing chaos.
 
