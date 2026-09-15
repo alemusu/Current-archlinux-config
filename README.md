@@ -8,7 +8,7 @@ To create a whole system from Archlinux minimal that could be used as my main an
 There was a previous version which is uploaded in other repository (dwm-arch-rice) in which I took inspiration for the visual design of this second version. It was based on X11 which is old, deprecated and unsafer than the now being used Wayland. Still for minimalistic reasons I kused Sway, which is the wayland equivalent of i3.
 
 ## Main programs used
-Sway -> Window manager
+Sway -> Window manager \n
 Alacritty -> Terminal emulator
 Fuzzel -> Application launcher and bash scripts executer
 Waybar -> Interactable status bar
